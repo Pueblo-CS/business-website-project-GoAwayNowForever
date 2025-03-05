@@ -1,7 +1,31 @@
 body {
-    background-image: url("https://picsum.photos/id/2/1000/1000");
+    background-image: url("https://picsum.photos/id/411/1000/1000");
     background-repeat: no-repeat;
     background-position: center ;
     background-attachment:fixed;
     background-size:cover;
+    margin:0px;
+}
+
+#header {
+    background-color:#000011;
+    color:#73ff7B;
+    height:60px;
+
+}
+
+.nav > a {
+    color:white;
+    text-decoration:underline;
+}
+
+#hero {
+    font-size:30px;
+    color:white;
+}
+
+#cta {
+    background-color:#6700bc;
+    color:white;
+    text-decoration:dotted;
 }
