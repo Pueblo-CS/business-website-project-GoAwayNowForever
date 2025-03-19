@@ -7,6 +7,8 @@ body {
     margin:0px;
 }
 
+#header, .nav > #hero, #cta 
+
 #header {
     background-color:#000011;
     color:#73ff7B;
@@ -28,4 +30,22 @@ body {
     background-color:#6700bc;
     color:white;
     text-decoration:dotted;
+}
+
+#cta:hover{
+    background-color: #6700bc;
+    color:#73ff7B
+}
+
+a {
+    text-decoration: underline;
+}
+
+#services {
+    background-color: #73ff7B;
+}
+
+.card {
+    background-color: white;
+    width:fit-content;
 }
