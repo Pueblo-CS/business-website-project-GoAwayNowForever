@@ -4,6 +4,8 @@ body {
     background-position: center ;
     background-attachment:fixed;
     background-size:cover;
+    font-size 22px;
+    font-family:cursive;
     margin:0px;
 }
 
@@ -12,8 +14,13 @@ body {
 #header {
     background-color:#000011;
     color:#73ff7B;
-    height:60px;
+    height:30px;
+    padding-right: 20px;
 
+}
+
+.logo {
+    float:left;
 }
 
 .nav > a {
@@ -22,14 +29,21 @@ body {
 }
 
 #hero {
-    font-size:30px;
+    margin-top: 10%;
+    margin-bottom:10%;
     color:white;
+
 }
 
 #cta {
     background-color:#6700bc;
     color:white;
     text-decoration:dotted;
+    float-right:;
+}
+
+.button {
+    padding:10px 20px 10px 20px;
 }
 
 #cta:hover{
@@ -43,9 +57,13 @@ a {
 
 #services {
     background-color: #73ff7B;
+
+flex-direction: row;
 }
+justify-content:space-around;
 
 .card {
     background-color: white;
-    width:fit-content;
+    width:20%;
+    padding:10px 20px 10px 20px;
 }
